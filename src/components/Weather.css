@@ -158,3 +158,123 @@ button {
     height: 4vh;
 
 }
+
+
+@media screen and (min-width:600px) {
+   
+.input input {
+  width: 50%;
+  margin-top: 50px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid  rgba(6, 121, 133, 0.775);
+  box-shadow: 0 0 20px rgba(192, 237, 243, 0.775);
+  outline: none;
+  font-size: 18px;
+}
+
+button {
+    padding: auto;
+    background: rgb(3, 229, 250);
+    border: 1px solid white;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgb(3, 229, 250);
+    border-radius: 30px;
+    margin-left: 20px;
+    width: 10vw;
+    height: 7vh;
+
+}
+
+}
+
+
+@media screen and (min-width:800px) {
+   
+.input input {
+  width: 40%;
+  margin-top: 50px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid  rgba(6, 121, 133, 0.775);
+  box-shadow: 0 0 20px rgba(192, 237, 243, 0.775);
+  outline: none;
+  font-size: 18px;
+}
+
+button {
+    padding: auto;
+    background: rgb(3, 229, 250);
+    border: 1px solid white;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgb(3, 229, 250);
+    border-radius: 30px;
+    margin-left: 20px;
+    width: 10vw;
+    height: 5vh;
+
+}
+
+}
+
+
+
+@media screen and (min-width:800px) {
+   
+.input input {
+  width: 30%;
+  margin-top: 50px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid  rgba(6, 121, 133, 0.775);
+  box-shadow: 0 0 20px rgba(192, 237, 243, 0.775);
+  outline: none;
+  font-size: 18px;
+}
+
+button {
+    padding: auto;
+    background: rgb(3, 229, 250);
+    border: 1px solid white;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgb(3, 229, 250);
+    border-radius: 30px;
+    margin-left: 20px;
+    width: 10vw;
+    height: 5vh;
+
+}
+}
+
+
+@media screen and (min-width:900px) {
+   
+.input input {
+  width: 30%;
+  margin-top: 50px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid  rgba(6, 121, 133, 0.775);
+  box-shadow: 0 0 20px rgba(192, 237, 243, 0.775);
+  outline: none;
+  font-size: 18px;
+}
+
+button {
+    padding: auto;
+    background: rgb(3, 229, 250);
+    border: 1px solid white;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgb(3, 229, 250);
+    border-radius: 30px;
+    margin-left: 20px;
+    width: 10vw;
+    height: 5vh;
+
+}
+
+}
