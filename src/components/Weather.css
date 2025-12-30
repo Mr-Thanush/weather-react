@@ -153,7 +153,7 @@ button {
     border: 1px solid white;
     cursor: pointer;
    box-shadow: 0 0 20px white;
-    border-radius: 30px;
+    border-radius: 10px;
     margin-left: 20px;
     width: 13vw;
     height: 4vh;
