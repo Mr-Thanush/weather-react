@@ -219,7 +219,7 @@ button {
     border: 1px solid white;
     cursor: pointer;
    box-shadow: 0 0 20px white;
-    border-radius: 30px;
+    border-radius: 10px;
     margin-left: 20px;
     width: 20vw;
     height: 7vh;
@@ -251,7 +251,7 @@ button {
     border: 1px solid white;
     cursor: pointer;
     box-shadow: 0 0 20px rgb(3, 229, 250);
-    border-radius: 30px;
+   border-radius: 10px;
     margin-left: 20px;
     width: 10vw;
     height: 7vh;
@@ -283,7 +283,7 @@ button {
     border: 1px solid white;
     cursor: pointer;
     box-shadow: 0 0 20px rgb(3, 229, 250);
-    border-radius: 30px;
+    border-radius: 10px;
     margin-left: 20px;
     width: 10vw;
     height: 5vh;
@@ -316,7 +316,7 @@ button {
     border: 1px solid white;
     cursor: pointer;
     box-shadow: 0 0 20px rgb(3, 229, 250);
-    border-radius: 30px;
+    border-radius: 10px;
     margin-left: 20px;
     width: 10vw;
     height: 5vh;
@@ -343,14 +343,16 @@ button {
 
 button {
     padding: auto;
-    background: rgb(3, 229, 250);
+    background: rgb(250, 251, 251);
     border: 1px solid white;
     cursor: pointer;
-    box-shadow: 0 0 20px rgb(3, 229, 250);
-    border-radius: 30px;
+    box-shadow: 0 0 20px rgb(251, 252, 252);
+    border-radius: 10px;
     margin-left: 20px;
     width: 10vw;
     height: 5vh;
+    background-color: transparent;
+    color:white;
 
 }
 
