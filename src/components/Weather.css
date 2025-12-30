@@ -26,10 +26,12 @@
   text-align: center;
   padding: 10px;
   border-radius: 20px;
-  border: 2px solid  rgba(6, 121, 133, 0.775);
-  box-shadow: 0 0 20px rgba(192, 237, 243, 0.775);
+  border: 2px solid  rgb(250, 251, 251);
+  box-shadow: 0 0 20px rgb(248, 249, 249);
   outline: none;
-  font-size: 18px;
+  font-size: 15px;
+  background-color: transparent;
+  color:white;
 }
 
 .NextData {
@@ -43,7 +45,6 @@
     margin-top: 100px;
  border-radius: 10px;
  width: 50vw;
- height: 20vh;
  display: flex;
  flex-direction: column;
  align-items: center;
@@ -148,17 +149,85 @@ border-radius: 10px;
 
 button {
     padding: auto;
-    background: rgb(3, 229, 250);
+    background: transparent;
     border: 1px solid white;
     cursor: pointer;
-    box-shadow: 0 0 20px rgb(3, 229, 250);
+   box-shadow: 0 0 20px white;
     border-radius: 30px;
     margin-left: 20px;
     width: 13vw;
     height: 4vh;
+   color:white;
+}
+
+@media screen and (min-width:370px) {
+   
+.input input {
+  width: 50%;
+  margin-top: 50px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid  white;
+  box-shadow: 0 0 20px white;
+  outline: none;
+  font-size: 15px;
+  background-color: transparent;
+  color:white;
+}
+::placeholder{
+  color:white;
+}
+
+.weatherDetails {
+  margin-top: 50px;
+ border-radius: 10px;
+ width: 50vw;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+ background: rgba(255, 255, 255, 0.15);
+ backdrop-filter: blur(12px);
+ -webkit-backdrop-filter: blur(12px);
+ border: 1px solid rgba(255, 255, 255, 0.3);
+ box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.date{
+    margin-top: 100px;
+   border-radius: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+ width: 50vw;
+ height: 10vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+}
+
+
+button {
+    padding: auto;
+     background: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+   box-shadow: 0 0 20px white;
+    border-radius: 30px;
+    margin-left: 20px;
+    width: 20vw;
+    height: 7vh;
+    color:white;
 
 }
 
+}
 
 @media screen and (min-width:600px) {
    
@@ -168,10 +237,12 @@ button {
   text-align: center;
   padding: 10px;
   border-radius: 20px;
-  border: 2px solid  rgba(6, 121, 133, 0.775);
-  box-shadow: 0 0 20px rgba(192, 237, 243, 0.775);
+  border: 2px solid  white;
+  box-shadow: 0 0 20px white;
   outline: none;
   font-size: 18px;
+  background-color: transparent;
+  color:white;
 }
 
 button {
@@ -198,10 +269,12 @@ button {
   text-align: center;
   padding: 10px;
   border-radius: 20px;
-  border: 2px solid  rgba(6, 121, 133, 0.775);
-  box-shadow: 0 0 20px rgba(192, 237, 243, 0.775);
+  border: 2px solid  white;
+  box-shadow: 0 0 20px white;
   outline: none;
   font-size: 18px;
+  background-color: transparent;
+  color:white;
 }
 
 button {
@@ -229,10 +302,12 @@ button {
   text-align: center;
   padding: 10px;
   border-radius: 20px;
-  border: 2px solid  rgba(6, 121, 133, 0.775);
-  box-shadow: 0 0 20px rgba(192, 237, 243, 0.775);
+  border: 2px solid  white;
+  box-shadow: 0 0 20px white;
   outline: none;
   font-size: 18px;
+  background-color: transparent;
+  color:white;
 }
 
 button {
@@ -258,10 +333,12 @@ button {
   text-align: center;
   padding: 10px;
   border-radius: 20px;
-  border: 2px solid  rgba(6, 121, 133, 0.775);
-  box-shadow: 0 0 20px rgba(192, 237, 243, 0.775);
+  border: 2px solid  white;
+  box-shadow: 0 0 20px white;
   outline: none;
   font-size: 18px;
+  background-color: transparent;
+  color:white;
 }
 
 button {

@@ -54,7 +54,7 @@ const Weather = () => {
       <div className="input">
         <input
           type="text"
-          placeholder="Enter City"
+          placeholder="Enter City Name"
           value={city}
           onChange={(e) => setCity(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && fetchData()}
